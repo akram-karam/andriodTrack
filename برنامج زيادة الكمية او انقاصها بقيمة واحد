@@ -1,21 +1,42 @@
-<RelativeLayout
+<Linearlayout
       andriod:layout_width="match_parent"
       android:layout_hieght="match parent"
+      android:orientation="vertical"
       
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="The Quantity"
-        android:textSize="24dp"
+        android:textAllCaps="true" // to convert all the text to capital letters
+        android:textColor="#rgb"// to change the color of the text
+        android:layout_marginBottom="16dp" // to add bottom margin
+        android:textSize="24dp" />
         
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="0"
-        android:textSize="24dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="24dp" />
+    
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="press to count"
+        android:layout_marginTop="16dp"
+        android:textSize="24dp" />
+   
+   
+// this button code is from the android documentation on the web
+     <Button
+           android:id="@+id/button_id"
+           android:layout_height="wrap_content"
+           android:layout_width="wrap_content"
+           android:text="order button ya ak" />
+
         
       
       
-      
-/ReativeLayout>      
+/<Linearlayout
+>      
     
