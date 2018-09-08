@@ -9,6 +9,8 @@
               android:layout_height="wrap_content"
               android:text="Click Me"
               android:layout_weight="0"
+              android:layout_alignParentBottom="true"
+              android:layout_centerHorizontal="true" 
               
         
         <TextView
