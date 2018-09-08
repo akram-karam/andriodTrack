@@ -1,1 +1,21 @@
-
+<RelativeLayout
+      andriod:layout_width="match_parent"
+      android:layout_hieght="match parent"
+      
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The Quantity"
+        android:textSize="24dp"
+        
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:textSize="24dp"
+        
+      
+      
+      
+/ReativeLayout>      
+    
