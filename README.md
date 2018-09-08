@@ -34,7 +34,7 @@
               andriod:layout_width="match_parent"
               adnriod:layout_height="wrap_content"
               android:text="From, Lyla"
-              adnroid:textSize="24dp" />
+              adnroid:textSize="24dp"  />
               
 </LinearLayout>
               
