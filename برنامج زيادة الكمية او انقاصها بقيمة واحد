@@ -9,7 +9,7 @@
         android:layout_height="wrap_content"
         android:text="The Quantity"
         android:textAllCaps="true"                     // to convert all the text to capital letters
-        android:textColor="@android:color/black"                       // to change the color of the text
+        android:textColor="@android:color/black"        // to change the color of the text
         android:layout_marginBottom="16dp"             // to add bottom margin
         android:textSize="24dp" />
         
