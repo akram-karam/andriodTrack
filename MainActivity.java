@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
     }
  
    /**
-     * This method displays the given quantity value on the screen.
+     * This method displays the given price value on the screen.
      */
     private void display(int number) {
         TextView priceTextView = (TextView) findViewById(R.id.price_text_view);
