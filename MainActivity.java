@@ -14,6 +14,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
+import java.text.NumberFormat;
+
 
 /**
  * This app displays an order form to order coffee.
@@ -29,8 +31,10 @@ public class MainActivity extends AppCompatActivity {
     /**
      * This method is called when the order button is clicked.
      */
-    public void submitOrder(View view) {
-        display(1);
+    public void submitOrder(int Number) {
+        display(2); 
+       displayPrice(2*5);
+     
     }
 
     /**
